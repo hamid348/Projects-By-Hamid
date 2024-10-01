@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #411900;
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.left img{
+    width: 150px;
+    height: 150px;
+}
+
+.navul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.navul li{
+   
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    color: burlywood;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    padding: 20px;
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%;
+    height: 100vh;
+  
+}
+
+.content-right{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+   
+}
+.content-right img{
+
+    width: 500px;
+    height: 500px;
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+.content-left h1{
+    
+    max-width: 600px;
+    
+}
+.content-left p{
+    max-width: 600px;
+}
+
+
+.getstart{
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #240e01;
+    color: white;
+   
+}
+.hamid{
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #240e01;
+    color: white;
+   
+}
+
+.heading1{
+    color: red;
+}
+
+@media all and (max-width:900px) {
+    #close-btn, #menu-btn{
+        display: block;
+    }
+    .right{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 260px;
+    height: 100vh;
+    background: red;
+   } 
+   .right ul{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    
+   }
+   
+}
+
+
+
+.material-symbols-outlined {
+    color: white;
+    cursor: pointer;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+  
+}
+#close-btn{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}

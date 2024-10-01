@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+}
+.container{
+    background-color: black;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#create-frm{
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+ #update-frm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+#create-frm, #update-frm{
+    display: none;
+}
+
+.submit-data{
+    margin-bottom: 30px;
+    
+}
+.submit-data h1{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+
+#update-frm input,#create-frm input{
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+th{
+    
+    padding: 15px;
+    background: greenyellow;
+}
+.table { 
+    border-spacing: 30px; 
+    color: black;
+
+
+}
+
+.tabledata{
+    background-color: chocolate;
+}
+
+
+
+#addbtn{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+   
+    
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+  
+  
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: #1ED760;
+    height: 48px;
+    
+
+}
+
+.btnu {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        
+        outline: none;
+        cursor: pointer;
+        font-size: 14px;
+        line-height: 1;
+        border-radius: 500px;
+       
+        
+        border: 1px solid transparent;
+        letter-spacing: 2px;
+        min-width: 160px;
+      
+      
+        font-weight: 700;
+        text-align: center;
+        padding: 17px 48px;
+        color: #fff;
+        background-color: blue;
+        height: 48px;
+        
+    
+    }
+
+.btnc{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+   
+    
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+  
+  
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 48px;
+    color: #fff;
+    background-color: red;
+    height: 48px;
+    
+
+}
+
+#msg{
+    color:#fff;
+    border: #1ED760;
+    width: 100%;
+    background: chocolate;
+    margin-top: 10px;
+    padding: 10px;
+    letter-spacing: 2px;
+
+}
+
+    

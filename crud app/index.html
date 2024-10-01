@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CRUD APP</title>
+</head>
+<body onload="displayitem()">
+    <div class="container">
+        <div class="submit-data">
+            <h1>
+                CRUD APP BY HAMID
+            </h1>
+            <form action="" id="create-frm">
+                <input id="c-name" type="text" placeholder="Hamid Raz...">
+                <input id="c-email" type="email" placeholder="hamid786raz@gmail...">
+                <!-- <button class="btnc" type="button" id="Add" onclick="">ADD</button> -->
+                
+            </form>
+            <form action="" id="update-frm">
+                <input id="u-name" type="text" placeholder="Hamid Raz...">
+                <input id="u-email" type="email" placeholder="hamid786raz@gmail...">
+                <button class="btnu" type="button" id="Add" onclick="update()">Update</button>
+            </form>
+            <button id="addbtn" onclick="add()">ADD+</button>
+            <div id="msg">Error</div>
+        </div>
+        
+        <div class="tabledata">
+            <table class="table">
+                <thead id="table-head">
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                </thead>
+                <tbody class="table-data">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
